@@ -1,0 +1,13 @@
+{
+    "type": "Code",
+    "modid": "unmixedglow",
+    "name": "UnmixedGlow",
+    "authors": [
+        "kotiklinok"
+    ],
+    "description": "This mod changes the standard logic for blending light emitted by the player.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.21.6"
+    }
+}
