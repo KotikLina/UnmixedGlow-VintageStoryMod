@@ -34,7 +34,11 @@ namespace UnmixedGlow
 
         public override void Dispose()
         {
-            harmonyInstance?.UnpatchAll(HarmonyId);
+            if (harmonyInstance != null)
+            {
+                harmonyInstance.UnpatchAll(HarmonyId);
+                harmonyInstance = null;
+            }
             base.Dispose();
         }
     }
